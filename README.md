@@ -28,7 +28,7 @@ Abaixo, está uma parte do código de Random Advice, e havia algumas coisas que 
         app.start(p);
 
 
-Nesse código, eu não entendi o que é o "var", que me deixou curioso, pois se usa no App e no 'i'. ja nos conhecidos, algo que ja havia visto é o app.get, onde ele busca o advice no banco de dado.
+Nesse código, eu não entendi o que é o "var", que me deixou curioso, pois se usa no App e no 'i', e pelo que eu pude entender, ele esta criando uma variável, mas nãoentendi qual o tipo dela. ja nos conhecidos, algo que ja havia visto é o app.get, onde ele busca o advice no banco de dado, parecido como era feito no Haskell.
 
 
 Logo abaixo, está uma parte do código que foi gerado na Segunda Feira, e nele, pude identificar coisas que me chamaram a atenção por ser conhecidos e desconhecidos
@@ -41,4 +41,4 @@ public class Main {
 
     
 
-Nesse código da Main, ele cria um log, mas confesso não ter entendido o que é o "LoggerFactory", se era um nome criado ou foi gerado a partir do banco de dados ou algo do tipo, e abaixo, entendi que ele estava carregando o Javalin e criando ele do tipo Static.
+Nesse código da Main, ele cria um log, mas confesso não ter entendido o que é o "LoggerFactory", se era um nome criado ou foi gerado a partir do banco de dados ou algo do tipo, mas que ele acessa diretamente no main, e abaixo, entendi que ele estava carregando o Javalin no tipo Static.
